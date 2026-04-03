@@ -1,0 +1,6 @@
+arnav=("10 January")
+garvit=("29 June")
+mom=("31 July")
+father=("29 August")
+grandma=("25 December")
+print("My birthday is on", garvit,",\nMy Best Friend's birthday is on", arnav,",\nMy mom's birthday is on", mom,",\nMy father's birthday is on", father,"\nMy grandma's Birthday is on", grandma)
