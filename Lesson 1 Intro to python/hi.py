@@ -1,0 +1,1 @@
+print("Nah bro just quit")
