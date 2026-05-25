@@ -1,3 +1,4 @@
+import random
 def check_lucky_number():
     LUCKY_NUMBER = 5
     attempts = 0
