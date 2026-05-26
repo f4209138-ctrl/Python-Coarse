@@ -11,6 +11,7 @@ def calculator():
     print("Operations= +,-,*,/")
 
 try:
+ calculator()
  choice= input("Enter operation:")
  num1=float(input("Enter a number:"))
  num2=float(input("Enter a number:"))
