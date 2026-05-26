@@ -22,6 +22,8 @@ try:
             print(num1*num2)
  elif choice =="/":
             print(num1/num2)
+except ValueError:
+       print("Invalid type")
 except ZeroDivisionError:
        print("Cannot be divided by zero")
 calculator()
