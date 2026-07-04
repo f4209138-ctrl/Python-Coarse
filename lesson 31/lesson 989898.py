@@ -1,16 +1,17 @@
 class Person:
-    def __init__(self,name,age):
+    def __init__(self,name,id_number):
         self.name = name
-        self.age = age
+        self.id_number = id_number
     def display(self):
         print("Name:",self.name)
-        print("Age:",self.age)
+        print("Id number: ",self.id_number)
 class Employee(Person):
-    def __init__(self,name,age,employee_id,salary):
-        super().__init__(name,age)
+    def __init__(self,name,id_number,salary,post):
+        super().__init__(name,id_number)
         self.salary = salary
-        self.employee_id = employee_id
-emp = Employee("Jhon","E1042",75000,90983)
+        self.id_number = id_number
+        self.post = post
+emp = Employee("Jhon","E1042",75000,"Teacher")
 emp.display()
 
 
