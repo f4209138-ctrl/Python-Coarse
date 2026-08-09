@@ -1,9 +1,15 @@
 import pygame
 import random
+from pygame import mixer
 
 pygame.init()
+mixer.init()
 screen = pygame.display.set_mode((800, 600))
 clock = pygame.time.Clock()
+background = pygame.image.load("background.png")
+background= pygame.transform.scale(background,(800,600))
+mixer.music.load("song.wav")
+mixer.music.play(-1)
 
 player = pygame.Rect(400, 300, 40, 40)
 enemies = [pygame.Rect(random.randint(0, 760), random.randint(0, 560), 40, 40) for _ in range(7)]
